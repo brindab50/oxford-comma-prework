@@ -5,9 +5,11 @@ def oxford_comma(array)
   array.join(" and ")
   
   elsif array.length > 2 
+  elsif array[-1].unfhift
   
 else 
   array.join("")
+  
 
 end
 
